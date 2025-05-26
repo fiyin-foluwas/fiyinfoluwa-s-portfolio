@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adeniyi fiyinfoluwa's portfoilo</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+      crossorigin="anonymous"
+    ></script>    
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav
+        class="navbar navbar-expand-lg fixed-top"
+        style="background-color: white"
+      >
+        <div class="container-fluid">
+          <a href="#" class="navbar-brand"><span>Fiyin</span>foluwa</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#home"
+                >Home</a
+              >
+              <a class="nav-link" href="#about">About</a>
+              <a class="nav-link" href="#projects">Projects</a>
+              <a class="nav-link" href="#skills">Skills</a>
+              <a class="nav-link" href="#experience">Experience</a>
+              <a class="nav-link" href="#contact-form">Contact</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section id="home">
+      <div class="home-content">
+        <h1>Hi</h1>
+        <h2>
+          I'm <span>fiyinfoluwa<br /></span>a Frontend Developer
+        </h2>
+        <p>
+          Welcome to my portfoilo! I'm Adeniyi Fiyinfoluwa Fruitful, A frontend
+          developer with a passion for creating beautiful,responsive and user-focused websites.
+          With a strong foundation in HTML,CSS,and Javascript,I enjoy turning complex problems
+          into elegant,accessibile web interfaces.Explore my work,skills,and jounery
+          as i continue to grow in the world of web development
+        </p>
+        <button class="btn1"><a href="#experience">Experience</a></button>
+    </section>
+
+    <section id="about">
+      <div class="about-img"><img src="images.jpg/Screenshot_20250524-175712~2.jpg" alt="" /></div>
+
+      <div class="about-content">
+        <h2 class="heading">About<span> Me</span></h2>
+        <h3>Frontend<span> Developer</span></h3>
+        <p>
+          Hi,I'm Adeniyi Fiyinfoluwa Fruitful,A passionate frontend developer
+          with a strong foundation in HTML,CSS,and Javascript.I love crafting
+          clean,responsive,and user-friendly interfaces that make websites an
+          web application come alive.
+        </p>
+        <p>
+          My jounery into web development started from a deep curiosity about
+          how websites work .Since then ,I've grown my skills through hands-on
+          projects,certifications from New horizions,and countinuous learning.
+        </p>
+        <p>
+          I'm particulary interested in UI/UX design and accessibility.My goal
+          is to create inclusive experience for all users.
+        </p>
+      </div>
+    </section>
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="projects">
+        <div class="container">
+          <h1>Loan Calculator</h1>
+          <p>Loan Amount $
+              <input onchange="calculateLoan()" class="input" type="number" id="loan-amount" min="1" max="500000" value="10000">
+          </p>
+          <p>Interest Rate %
+              <input onchange="calculateLoan()" class="input" type="number" id="interest-rate" min="0" max="100" value="10" step=".1">
+          </p>
+          <p>Months to pay
+              <input onchange="calculateLoan()" class="input" type="number" id="months-to-pay" min="6" max="48" value="12">
+          </p>
+          <p class="payment" id="payment">Monthly Payment:</p>
+      </div>
+      <div class="container">
+        <h1 class="heading">Note App</h1>
+        <p class="info-text">Double click on a note to remove it</p>
+        <div class="app" id="app">
+          <!-- <textarea
+            cols="30"
+            rows="10"
+            class="note"
+            placeholder="Empty Note"
+          ></textarea> -->
+    
+          <button class="btn" id="btn">+</button>
+        </div>
+    </section>
+    <section id="skills">
+      <h2>Skills</h2>
+      <p>
+        Here's a visual representation of technical skills and proficiency level
+      </p>
+      <div class="skills">
+        <p>HTML5</p>
+        <div class="skill-bar">
+          <div class="skill-bar-fill" style="width: 95%">95%</div>
+        </div>
+      </div> 
+      <div class="skill">
+        <p>CSS3</p>
+        <div class="skill-bar">
+          <div class="skill-bar-fill" style="width: 90%">90%</div>
+        </div>
+      </div>
+      <div class="skills">
+        <p>Javascript</p>
+        <div class="skill-bar">
+          <div class="skill-bar-fill" style="width: 80%">80%</div>
+        </div>
+      </div>
+      <div class="skill">
+        <p>React</p>
+        <div class="skill-bar">
+          <div class="skill-bar-fill" style="width: 80%">80%</div>
+        </div>
+      </div>
+      <div class="skill">
+        <p>Tailwind CSS</p>
+        <div class="skill-bar">
+          <div class="skill-bar-fill" style="width: 75%">75%</div>
+        </div>
+      </div>
+      <div class="skill">
+        <p>Git & GitHub</p>
+        <div class="skill-bar">
+          <div class="skill-bar-fill" style="width: 85%">85%</div>
+        </div>
+      </div>
+    </section>
+    <section id="experience">
+      <h2>Experience</h2>
+      <p>
+        These experiences have shaped my jounery as a frontend developer ,
+        giving me real-world exposure and teamwork skills.
+      </p>
+      <div class="experience-item">
+        <h3>Frontend Developer Intern</h3>
+        <p>
+          <strong>New Horizions ICT Resource Center</strong>- January 2025 -
+          April 2025
+        </p>
+        <ul>
+          <li>
+            Collaborated with a development team to build responsive and
+            accessibile UI component for interal web tools.
+          </li>
+          <li>
+            Implemented real-time features using Javascript and performed UI
+            enhancements to boost usuabilty.
+          </li>
+          <li>
+            Translated design mockups from Figma into clean,production-ready
+            code using HTML,CSS,JS.
+          </li>
+          <li>
+            Practiced agile development: daily stand-ups,sprint planning,and
+            GitHub-based collaboration.
+          </li>
+        </ul>
+      </div>
+      <div class="experience-item">
+        <h3>Freelance Frontend Developer</h3>
+        <p><strong>Remote Projects</strong>- 2024 - Present</p>
+        <ul>
+          <li>
+            Developed custom websites for client using HTML5,CSS,and Javascript
+          </li>
+          <li>Focused on mobile responsive and performance optimization.</li>
+          <li>
+            Built interactive elements like modals,carousels,and dynamic form
+            validations.
+          </li>
+          <li>
+            Used Git for version control and deployed projects on GitHub pages
+            and Netlify.
+          </li>
+        </ul>
+      </div>
+      <div class="experience-item">
+        <h3>Team Project - ICT 118</h3>
+        <p>
+          <strong>Bells University of Technology</strong>- April 2025 -May 2025
+        </p>
+        <ul>
+          <li>
+            Contributed to a group portfoilo project simulating a real-world
+            frontend developer interview scenario.
+          </li>
+          <li>
+            Intergrated advanced layout techniques using CSS Grid and Flexbox
+            for a responsive UI.
+          </li>
+          <li>
+            Implemented a project filtering system using Javascript to improve
+            user experience.
+          </li>
+          <li>
+            Maintainted organized code with clear documentation and versioning
+            through Github.
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact-form">
+      <h2 class="contact-me">Contact<span>Me</span></h2>
+
+      <form action="#">
+        <div class="input-box">
+          <input
+            type="text"
+            placeholder="Full name">
+            <input
+            type="email"
+            placeholder="Email"
+          />
+        </div>
+        <div class="input-box">
+          <input type="text" placeholder="Subject" />
+        </div>
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Your Message"
+        ></textarea>
+        <input type="submit" value="Send Message" class="btn-1" />
+      </form>
+
+      <footer class="footer">
+        <p class="copyright">&copy;2025 fiyinfoluwa| All Rights Reserved</p>
+      </footer>
+    </section>
+    <script src="scripts.js"></script>
+  </body>
+</html>
