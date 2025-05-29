@@ -56,6 +56,15 @@ This website includes:
 
 -Managing version control with Git 
 
+## How to use This project
+
+To view or run this project locally:
+
+Git clone 
+https://github.com/fiyin-foluwas/fiyinfoluwa-s-portfoilo.git
+
+
+
 
 
 
