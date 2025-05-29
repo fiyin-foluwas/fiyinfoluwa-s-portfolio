@@ -65,7 +65,9 @@ https://github.com/fiyin-foluwas/fiyinfoluwa-s-portfoilo.git
 
 ## Live demo
 
-https://github.com/fiyin-foluwas/fiyinfoluwa-s-portfoilo.git
+(https://fiyin-foluwas.github.io/fiyinfoluwa-s-portfolio/)
+
+
 
 
 
