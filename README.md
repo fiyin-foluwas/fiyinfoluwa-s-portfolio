@@ -2,7 +2,7 @@
 Hi there I'm a frontend developer and this is my personal portfolio website built as part of the ICT 118 Web Development Project at Bells University of Technology ,in collaboration with New Horizons ICT.
 This project situmulates a real-world interview scenario for a frontend skills,projects ,and experiences using mordern web development practices 
 
-About This Project 
+## About This Project 
 
 This website includes:
 
@@ -20,7 +20,7 @@ This website includes:
 
 -A responsive design that looks great on all devices 
 
-Technologies I Used 
+## Technologies I Used 
 
 -HTML5
 
@@ -32,7 +32,7 @@ Technologies I Used
 
 -GitHub Pages (for deployment)
 
-How I Built 
+## How I Built 
 
 -I started by planning out the site structue and sketchng a layout.
 
@@ -44,7 +44,7 @@ How I Built
 
 -I deployed the final version using GitHub pages.
 
-What I Learned 
+## What I Learned 
 
 -Buliding mobile-first responsive layouts.
 
