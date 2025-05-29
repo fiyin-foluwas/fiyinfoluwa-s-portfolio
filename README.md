@@ -61,7 +61,11 @@ This website includes:
 To view or run this project locally:
 
 Git clone 
-https://github.com/fiyin-foluwas/fiyinfoluwa-s-portfoilo/Project
+https://github.com/fiyin-foluwas/fiyinfoluwa-s-portfoilo.git
+
+## Live demo 
+
+https://fiyin-foluwas.github.oi/fiyinfoluwa-s-portfoilo/Project
 
 
 
